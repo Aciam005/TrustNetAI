@@ -9,8 +9,8 @@ import json
 debug_use_website = True
 
 # account credentials
-username = "kamel4061@outlook.com"
-password = "1qaz@WSXparola12"
+username = "FILL USER"
+password = "FILL PASSWORD"
 # use your email provider's IMAP server, you can look for your provider's IMAP server on Google
 # or check this page: https://www.systoolsgroup.com/imap/
 # for office 365, it's this:
@@ -117,8 +117,7 @@ def Do_AI():
 
     final_message = chat_completion.choices[0].message.content;
     print(final_message)
-    return "Is the last email a scam?(Y/N + percentage of certainty) " + final_message
-    #return(chat_completion.choices[0].message.content)         
+    return "Is the last email a scam?(Y/N + percentage of certainty) " + final_message      
 
 #Call()
     
